@@ -1,0 +1,168 @@
+<template>
+    <div class="about">
+        <div class="wrapper">
+            <h2>ABOUT ME</h2>
+            <div class="pic">
+                <div
+                    class="me_pic"
+                    data-aos="fade-up"
+                    data-aos-duration="2500"
+                >
+                    <img
+                        src="@/assets/images/me.webp"
+                        alt="me"
+                    >
+                </div>
+                <ul
+                    data-aos="fade-up"
+                    data-aos-duration="2500"
+                >
+                    <li>
+                        <a
+                            href="https://www.linkedin.com/in/han0717"
+                            target="_blank"
+                        >
+                            <img
+                                src="@/assets/images/linkedin.webp"
+                                alt="me"
+                            >
+                        </a>
+                    </li>
+                    <li>
+                        <a href="mailto:han0910812144@gmail.com">
+                            <img
+                                src="@/assets/images/email.webp"
+                                alt="me"
+                            >
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="text">
+                <h3
+                    data-aos="fade-up"
+                    data-aos-duration="2500"
+                >
+                    Front end Developer
+                </h3>
+                <h3
+                    data-aos="fade-up"
+                    data-aos-duration="2500"
+                >
+                    前端工程師 - HAN
+                </h3>
+                <p
+                    data-aos="fade-up"
+                    data-aos-duration="2500"
+                >
+                    嗨，我是一名前端工程師，從平面設計起步，轉向網頁設計後專注於
+                    Vue.js 前端開發。 無論是 品牌網站特效、系統平台建置，還是
+                    互動遊戲平台，我都有豐富經驗。
+                    自大學畢業以來，我一直在前端領域耕耘，熱衷將設計與技術結合，打造美觀又實用的網頁。
+                </p>
+            </div>
+            <div class="timeline">
+                <h5
+                    data-aos="fade-up"
+                    data-aos-duration="2500"
+                >
+                    TIMELINE
+                </h5>
+                <ul>
+                    <li
+                        data-aos="fade-up"
+                        data-aos-duration="1000"
+                    >
+                        <span>2025/3-2025/9</span>
+                        <h6>高飛資訊科技-前端工程師</h6>
+                        <p>探索網站製作</p>
+                        <p>公司形象網站與名片模板製作以及後台調整維護</p>
+                    </li>
+                    <li
+                        data-aos="fade-up"
+                        data-aos-duration="1000"
+                    >
+                        <span>2025/2</span>
+                        <h6>加入立炘數位成為外包前端工程師</h6>
+                        <p>完成多項建商網頁</p>
+                    </li>
+                    <li
+                        data-aos="fade-up"
+                        data-aos-duration="1000"
+                    >
+                        <span>2024/3</span>
+                        <h6>與格子數位&大豐環保資訊部合作</h6>
+                        <p>完成大豐環保官網</p>
+                    </li>
+                    <li
+                        data-aos="fade-up"
+                        data-aos-duration="1000"
+                    >
+                        <span>2021/2~2025/3</span>
+                        <h6>創意未來科技-前端工程師</h6>
+                        <p>學習王兒童遊戲</p>
+                        <p>瘋狂科學兒童遊戲</p>
+                        <p>電子聯絡簿</p>
+                        <p>各大教育單位與出版社系統製作</p>
+                    </li>
+                    <li
+                        data-aos="fade-up"
+                        data-aos-duration="1000"
+                    >
+                        <span>2021/1</span>
+                        <h6>加入大將整合行銷成為外包前端工程師</h6>
+                        <p>完成多項形象網頁</p>
+                    </li>
+                    <li
+                        data-aos="fade-up"
+                        data-aos-duration="1000"
+                    >
+                        <span>2020/2~2020/9</span>
+                        <h6>跳跳股份有限公司-前端工程師</h6>
+                        <p>JINS igarishinobu活動網頁</p>
+                        <p>JINS switch活動網頁</p>
+                        <p>生源泰網頁製作</p>
+                        <p>富蘭紙業網頁製作</p>
+                        <p>以及各大網站修改及維護</p>
+                    </li>
+                    <li
+                        data-aos="fade-up"
+                        data-aos-duration="1000"
+                    >
+                        <span>2018/9~2019/8</span>
+                        <h6>雲端數位-前端工程師</h6>
+                        <p>fitzone(世界健身)網頁製作</p>
+                        <p>瑞智精密30周年慶網頁製作</p>
+                        <p>渥盛集團網頁製作</p>
+                        <p>以及各大網站修改及維護</p>
+                    </li>
+                    <li
+                        data-aos="fade-up"
+                        data-aos-duration="1000"
+                    >
+                        <span>2016/7~2016/9</span>
+                        <h6>英寶科技-美術設計</h6>
+                        <p>台積電內部系統</p>
+                        <p>台積電(台中廠15B)道路施工協議書</p>
+                        <p>台積電(新竹廠)柵欄機繪製</p>
+                    </li>
+                    <li
+                        data-aos="fade-up"
+                        data-aos-duration="1000"
+                    >
+                        <span>2016/7~2016/9</span>
+                        <h6>永億資訊-實習視覺設計師</h6>
+                        <p>完成大銘貨運資訊系統專案介面設計</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <a
+            style="display: none"
+            href="https://www.flaticon.com/free-icons/linkedin"
+            title="linkedin icons"
+        >
+            由 Freepik - Flaticon 創建的 Linkedin 圖示
+        </a>
+    </div>
+</template>
