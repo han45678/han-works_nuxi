@@ -3,6 +3,7 @@ import { useHead } from '#imports'
 import Banner from '~/components/Banner.vue'
 import Works from '~/components/Works.vue'
 import About from '~/components/About.vue'
+// import ContactForm from '~/components/ContactForm.vue'
 import Win from '~/components/Win.vue'
 import { ref, onMounted, nextTick } from 'vue';
 // @ts-ignore: ignore missing type declarations for aos
@@ -32,7 +33,7 @@ useHead({
         { name: 'twitter:image', content: 'https://han45678.github.io/HanWorks/icon.ico' }
     ],
     link: [
-        { rel: 'icon', type: 'image/svg+xml', href: '/icon.ico' }
+        { rel: 'icon', type: 'image/svg+xml', href: 'https://han45678.github.io/HanWorks/icon.ico' }
     ],
     script: [
         {
@@ -59,6 +60,7 @@ useHead({
 
 const worksRef = ref < HTMLElement | null > (null);
 const aboutRef = ref < HTMLElement | null > (null);
+// const contactFormRef = ref < HTMLElement | null > (null);
 const isLoading = ref < boolean > (true);
 
 const toWorks = () => {
@@ -104,6 +106,10 @@ onMounted(() => {
         <transition v-if="!isLoading" ref="aboutRef">
             <About />
         </transition>
+
+        <!-- <transition v-if="!isLoading" ref="contactFormRef">
+            <ContactForm />
+        </transition> -->
         
         <transition name="fade">
             <Win />
